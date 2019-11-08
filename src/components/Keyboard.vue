@@ -2,12 +2,12 @@
   <div id="controls">
     <div id="keyboard">
       <div>
-        <button :disabled="top<=-50" name="up" @click="$emit('move',$event.target.name)">&uarr;</button>
+        <button :disabled="top<=0" name="up" @click="$emit('move',$event.target.name)">&uarr;</button>
       </div>
       <div>
-        <button :disabled="left<=50" name="left" @click="$emit('move',$event.target.name)">&larr;</button>
-        <button :disabled="top>=450" name="down" @click="$emit('move',$event.target.name)">&darr;</button>
-        <button :disabled="left>=350" name="right" @click="$emit('move',$event.target.name)">&rarr;</button>
+        <button :disabled="left<=0" name="left" @click="$emit('move',$event.target.name)">&larr;</button>
+        <button :disabled="top>=500" name="down" @click="$emit('move',$event.target.name)">&darr;</button>
+        <button :disabled="left>=300" name="right" @click="$emit('move',$event.target.name)">&rarr;</button>
       </div>
     </div>
   </div>

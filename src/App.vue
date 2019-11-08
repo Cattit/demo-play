@@ -17,8 +17,8 @@ export default {
   },
   data() {
     return {
-      left: 200,
-      top: 200
+      left: 150,
+      top: 250
     };
   },
 

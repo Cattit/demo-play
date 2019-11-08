@@ -29,10 +29,6 @@ export default {
 #circle {
   position: absolute;
   box-sizing: border-box;
-  /* left: 50%; */
-  margin-left: -50px;
-  /* top: 50%; */
-  margin-top: 50px;
   width: 100px;
   height: 100px;
   border: 1px solid black;
